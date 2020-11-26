@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SideWidgetComponent } from './components/side-widget/side-widget.component';
+import { BlogEntryComponent } from './components/blog-entry/blog-entry.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -18,7 +19,8 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SideWidgetComponent
+    SideWidgetComponent,
+    BlogEntryComponent
   ],
   imports: [
     BrowserModule,
