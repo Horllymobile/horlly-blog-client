@@ -7,7 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SideWidgetComponent } from './components/side-widget/side-widget.component';
 import { BlogEntryComponent } from './components/blog-entry/blog-entry.component';
-import { ReadMoreComponent } from './components/read-more/read-more.component';
+import { ReadMoreComponent } from './pages/read-more/read-more.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
