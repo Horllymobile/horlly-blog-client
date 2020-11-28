@@ -19,26 +19,43 @@
             <div class="col-lg-6">
                 <ul class="list-unstyled mb-0">
                     <li>
-                        <a href="#">Web Design</a>
+                        <a 
+                        [routerLink] = "['/posts', {category: 'Web Design'}]"
+                        routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Web Design</a>
                     </li>
                     <li>
-                        <a href="#">HTML</a>
+                        <a
+                        [routerLink] = "['/posts', {category: 'html'}]"
+                        routerLinkActive="active" routerLinkActiveOptions="{exact:true}"
+                        >HTML</a>
                     </li>
                     <li>
-                        <a href="#">Freebies</a>
+                        <a
+                        [routerLink] = "['/posts', {category: 'css'}]"
+                        routerLinkActive="active" routerLinkActiveOptions="{exact:true}"
+                        >Motivations</a>
                     </li>
                 </ul>
             </div>
             <div class="col-lg-6">
                 <ul class="list-unstyled mb-0">
                     <li>
-                        <a href="#">JavaScript</a>
+                        <a
+                        [routerLink] = "['/posts', {category: 'Javascript'}]"
+                        routerLinkActive="active" routerLinkActiveOptions="{exact:true}"
+                        >JavaScript</a>
                     </li>
                     <li>
-                        <a href="#">CSS</a>
+                        <a 
+                        [routerLink] = "['/posts', {category: 'css'}]"
+                        routerLinkActive="active" routerLinkActiveOptions="{exact:true}"
+                        >CSS</a>
                     </li>
                     <li>
-                        <a href="#">Tutorials</a>
+                        <a
+                        [routerLink] = "['/posts', {category: 'tutorials'}]"
+                        routerLinkActive="active" routerLinkActiveOptions="{exact:true}"
+                        >Tutorials</a>
                     </li>
                 </ul>
             </div>

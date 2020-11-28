@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Post } from 'src/app/models/post';
 
 @Component({
   selector: 'app-blog-entry',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog-entry.component.css']
 })
 export class BlogEntryComponent implements OnInit {
-
+  @Input() poststorender: Observable<Post[]>;
   constructor() { }
 
   ngOnInit(): void {
+    setTimeout(()=>{
+      console.log(this.poststorender);
+    },2000);
   }
 
 }

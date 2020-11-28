@@ -1,0 +1,104 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "HTML is good to begin with",
+            "article": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nobis distinctio iste nihil esse consequuntur facere quo molestias illum porro, omnis aspernatur delectus? Modi unde autem est, ratione exercitationem quo doloremque magnam repellendus optio necessitatibus possimus alias ad deleniti laudantium neque similique doloribus, officia cumque sunt quis eos? Cupiditate, dolores.",
+            "date": "2020-09-11",
+            "author": "Horllymobile",
+            "category": "html",
+            "comments": [
+                {
+                    "id": 1,
+                    "user": "James Olamide",
+                    "comment": "Bla bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "user": "John Doe",
+                    "comment": "Bla bla bla bla"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Move to CSS after Html Don't Jumb to javascript",
+            "article": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nobis distinctio iste nihil esse consequuntur facere quo molestias illum porro, omnis aspernatur delectus? Modi unde autem est, ratione exercitationem quo doloremque magnam repellendus optio necessitatibus possimus alias ad deleniti laudantium neque similique doloribus, officia cumque sunt quis eos? Cupiditate, dolores.",
+            "date": "2020-09-11",
+            "author": "Horllymobile",
+            "category": "web design",
+            "comments": [
+                {
+                    "id": 1,
+                    "user": "James Olamide",
+                    "comment": "Bla bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "user": "John Doe",
+                    "comment": "Bla bla bla bla"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "The best time to start JavaScript",
+            "article": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nobis distinctio iste nihil esse consequuntur facere quo molestias illum porro, omnis aspernatur delectus? Modi unde autem est, ratione exercitationem quo doloremque magnam repellendus optio necessitatibus possimus alias ad deleniti laudantium neque similique doloribus, officia cumque sunt quis eos? Cupiditate, dolores.",
+            "date": "2020-09-11",
+            "author": "Horllymobile",
+            "category": "css",
+            "comments": [
+                {
+                    "id": 1,
+                    "user": "James Olamide",
+                    "comment": "Bla bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "user": "John Doe",
+                    "comment": "Bla bla bla bla"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Time to start Coding and Time to stop coding",
+            "article": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nobis distinctio iste nihil esse consequuntur facere quo molestias illum porro, omnis aspernatur delectus? Modi unde autem est, ratione exercitationem quo doloremque magnam repellendus optio necessitatibus possimus alias ad deleniti laudantium neque similique doloribus, officia cumque sunt quis eos? Cupiditate, dolores.",
+            "date": "2020-09-11",
+            "author": "Horllymobile",
+            "category": "javascript",
+            "comments": [
+                {
+                    "id": 1,
+                    "user": "James Olamide",
+                    "comment": "Bla bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "user": "John Doe",
+                    "comment": "Bla bla bla bla"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Don't backdown yet, keep practicing",
+            "article": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nobis distinctio iste nihil esse consequuntur facere quo molestias illum porro, omnis aspernatur delectus? Modi unde autem est, ratione exercitationem quo doloremque magnam repellendus optio necessitatibus possimus alias ad deleniti laudantium neque similique doloribus, officia cumque sunt quis eos? Cupiditate, dolores.",
+            "date": "2020-09-11",
+            "author": "Horllymobile",
+            "category": "motivations",
+            "comments": [
+                {
+                    "id": 1,
+                    "user": "James Olamide",
+                    "comment": "Bla bla bla bla"
+                },
+                {
+                    "id": 2,
+                    "user": "John Doe",
+                    "comment": "Bla bla bla bla"
+                }
+            ]
+        }
+    ]
+}
