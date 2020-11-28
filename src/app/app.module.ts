@@ -10,14 +10,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { SideWidgetComponent } from './components/side-widget/side-widget.component';
 import { BlogEntryComponent } from './components/blog-entry/blog-entry.component';
 import { ReadMoreComponent } from './pages/read-more/read-more.component';
-<<<<<<< HEAD
 import { BlogPostsComponent } from './components/blog-posts/blog-posts.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { PostsComponent } from './pages/posts/posts.component';
-=======
->>>>>>> ea9f59f0c97e1b372bef76eee17072107f95e1c3
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},

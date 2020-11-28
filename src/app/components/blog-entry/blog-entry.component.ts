@@ -12,9 +12,6 @@ export class BlogEntryComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    setTimeout(()=>{
-      console.log(this.poststorender);
-    },2000);
   }
 
 }

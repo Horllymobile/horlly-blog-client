@@ -12,9 +12,7 @@ export class BlogPostsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    setTimeout(()=>{
-      console.log(this.posts);
-    },2000);
+
   }
 
 }

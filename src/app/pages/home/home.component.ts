@@ -14,8 +14,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.postService.getPosts().subscribe(
       data => {
-        this.posts = data['posts'];
-        console.log(this.posts);
+        this.posts$ = data['posts'];
       }
     )
   }
