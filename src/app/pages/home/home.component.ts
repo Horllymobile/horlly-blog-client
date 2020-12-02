@@ -8,13 +8,14 @@ import { PostsService } from '../../services/posts.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  posts$: Observable<Post[]>;
+  posts$: any;
   constructor(private postService: PostsService) { }
 
   ngOnInit(): void {
     this.postService.getPosts().subscribe(
       data => {
-        this.posts$ = data['posts'];
+        this.posts$ = data;
+        console.log(data);
       }
     )
   }
