@@ -10,7 +10,7 @@ import { Post } from 'src/app/models/post';
 export class BlogPostsComponent implements OnInit {
   @Input() posts: Observable<Post[]>;
   constructor() { }
-
+  p: number = 1;
   ngOnInit(): void {
 
   }

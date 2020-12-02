@@ -6,11 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PostsService {
-  private __postUrl = '../../assets/db.json';
-
-  constructor(private __http: HttpClient) { }
+  private _postUrl = '../../assets/db.json';
+  private _url = 'https://horlly-blog-api.herokuapp.com/api/posts';
+  constructor(private _http: HttpClient) { }
 
   getPosts(){
-    return this.__http.get(this.__postUrl);
+    return this._http.get(this._url);
   }
 }
